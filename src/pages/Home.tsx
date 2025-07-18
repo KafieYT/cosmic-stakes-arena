@@ -27,6 +27,13 @@ const Home = () => {
       onClick: () => navigate('/crash')
     },
     {
+      title: 'Blackjack',
+      description: 'Approchez-vous de 21 sans dépasser !',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop',
+      multiplier: '2.00x',
+      onClick: () => navigate('/blackjack')
+    },
+    {
       title: 'Dice',
       description: 'Prédisez le résultat du dé et gagnez gros !',
       image: 'https://images.unsplash.com/photo-1570303345338-e1f0eddf4946?w=400&h=250&fit=crop',

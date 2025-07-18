@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -10,6 +11,7 @@ import Mines from "./pages/Mines";
 import Dice from "./pages/Dice";
 import NotFound from "./pages/NotFound";
 import Crash from "./pages/Crash";
+import Blackjack from "./pages/Blackjack";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +28,7 @@ const App = () => (
           <Route path="/mines" element={<Mines />} />
           <Route path="/dice" element={<Dice />} />
           <Route path="/crash" element={<Crash />} />
+          <Route path="/blackjack" element={<Blackjack />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
